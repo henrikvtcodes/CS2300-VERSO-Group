@@ -1,3 +1,7 @@
+/**
+ * this program calculates the sum of all even fibonacci numbers below 4 million
+ *
+ */
 public class sum_even_fibonacci {
     public static void main(String[] args) {
         int a = 0, b = 1;
