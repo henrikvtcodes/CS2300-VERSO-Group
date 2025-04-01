@@ -1,5 +1,12 @@
 # CS 2300 Advanced Programming
 
+
+
+
+
+# URL: https://github.com/henrikvtcodes/CS2300-VERSO-Group
+
+
 This is a Repository for UVM CS 2300 Advanced Programming class. The goal of this class is to explore pull request and issues in a group on a single repository.  
 
 ## Steps 
