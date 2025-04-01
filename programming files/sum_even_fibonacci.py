@@ -1,9 +1,9 @@
-a, b = 1, 1  # Changed initial values
+a, b = 1, 1
 sum_even = 0
-while b <= 4000000:  # Changed to <= which will cause one extra iteration
-    if b % 3 == 0:  # Changed from checking for even to divisible by 3
+while b <= 4000000:
+    if b % 3 == 0:
         sum_even += b
-    a, b = a, a+b  # Incorrect Fibonacci sequence update
+    a, b = a, a+b
 print(sum_even)
 
 # answer should be 4613732
