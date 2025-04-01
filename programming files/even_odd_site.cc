@@ -1,6 +1,6 @@
 //Bugs introduced: TO
 #include <iostream>
-#include <fstream>
+#include <ofstream>
 using namespace std;
 
 int main() {
