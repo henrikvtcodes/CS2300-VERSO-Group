@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <sstream>
 #include <chrono>
-// Bugs Added: changed variable name in line 17, changed function name in line 19, swapped Y and m on line 19 CD
+// Bugs Added: CD
 int main()
 {
     //initializes string to default date and time
