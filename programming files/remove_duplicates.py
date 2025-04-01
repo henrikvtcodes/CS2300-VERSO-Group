@@ -2,6 +2,7 @@ def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
     removed_elements = []
+    # iterate through array, if element not already included in unique_arr then add it
     for i in range(len(arr)):
         if i == 0 or arr[i] != arr[i-1]:
             unique_arr.append(arr[i])
