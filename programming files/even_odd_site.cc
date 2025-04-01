@@ -13,7 +13,7 @@ int main() {
             file << "<tr><td>" << i << "</td><td></td></tr>\n";
         }
         else {
-            file << "<tr><td></td><td>" << "i" << "</td></tr>\n";
+            file << "<tr><td></td><td>" << i << "</td></tr>\n";
         }
     }
     file << "</tbl>\n</body>\n</html>";
