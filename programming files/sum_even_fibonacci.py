@@ -1,3 +1,4 @@
+# this program calculates the sum of all even fibonacci numbers less than 4 million
 a, b = 0, 1
 sum_even = 0
 while b < 4000000:
