@@ -12,10 +12,10 @@ public Class even_odd_site {
                 file.write("<tr><td>" + i + "</td><td></td></tr>\n");
             }
             else {
-                file.write("<tr><td></td><td>"  i + "</td></tr>\n");
+                file.write("<tr><td></td><td>" + i + "</td></tr>\n");
             }
         }
-        file.write("</tbl>\n</body>\n</html>");
+        file.write("</table>\n</body>\n</html>");
         file.close();
         BufferedReader reader = new BufferedReader(new FileReader("numbers.html"));
         String line;
