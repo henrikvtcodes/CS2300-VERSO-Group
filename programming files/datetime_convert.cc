@@ -14,9 +14,9 @@ int main()
     //inputs date and time into date_str
     ss >> std::get_time(&date_obj, "%Y-%m-%d %H:%M:%S");
     //intializes formatted date
-    std::stringstream format_date_ss;
+    std::stringstream formatted_date_ss;
     //inputs formatted date
-    formatted_date_ss << std::put_date(&date_obj, "%Y/%d/%m %H:%M:%S");
+    formatted_date_ss << std::put_date(&date_obj, "%m/%d/%Y %H:%M:%S");
     //sets formatted date string equal to the formatted date input
     std::string formatted_date = formatted_date_ss.str();
 
